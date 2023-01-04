@@ -1,6 +1,6 @@
 {
-  "name": "@innexgo/auth-react-components",
-  "version": "0.1.46",
+  "name": "@cosmicoptima/auth-react-components",
+  "version": "0.1.48",
   "description": "UI templates for authenticated views",
   "main": "lib/index.js",
   "files": [
@@ -12,14 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/innexgo/auth-react-components.git"
+    "url": "git+https://github.com/cosmicoptima/auth-react-components.git"
   },
   "author": "Govind Pimpale",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/innexgo/auth-react-components/issues"
-  },
-  "homepage": "https://github.com/innexgo/auth-react-components#readme",
   "peerDependencies": {
     "@innexgo/common-react-components": "^0.1.19",
     "@innexgo/frontend-auth-api": "^0.2.47",

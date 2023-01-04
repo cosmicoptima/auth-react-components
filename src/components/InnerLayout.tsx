@@ -149,7 +149,7 @@ const InnerLayout: React.FunctionComponent<React.PropsWithChildren<InnerLayoutPr
               })}
             />
           </div>
-          <div className="nav-item nav-link link-light my-3">
+          <div className="nav-item nav-link link-light my-2">
             <Async promiseFn={loadUserData} apiKey={props.apiKey}>
               <Async.Pending>
                 {preferences.collapsed
@@ -173,7 +173,7 @@ const InnerLayout: React.FunctionComponent<React.PropsWithChildren<InnerLayoutPr
           {sidebarChildren}
           <button
             type="button"
-            className="btn nav-item nav-link link-light mt-auto text-start mb-2"
+            className="btn nav-item nav-link link-light mt-auto text-start mb-3"
             onClick={handleShow}
           >
             <ExitAppIcon style={iconStyle} className="me-2" />
